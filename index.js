@@ -174,7 +174,6 @@ handlers[CSGO.EGCBaseClientMsg.k_EMsgGCClientConnectionStatus] = function gcClie
 };
 
 CSGO.CSGOClient = CSGOClient;
-CSGO.SharecodeDecoder = require("./helpers/sharecode").SharecodeDecoder;
 
 require("./handlers/match");
 require("./handlers/player");
